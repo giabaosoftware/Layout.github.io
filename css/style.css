@@ -8,6 +8,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* border: 1px solid red;  */
 }
  
 
@@ -20,7 +21,7 @@ ul{
 }
 
 
-/* Header */
+/* Header Section */
 header{
     background-color: rgb(30, 54, 75);
     box-shadow: 0px 0px 5px rgb(19, 31, 41);
@@ -52,13 +53,160 @@ li > i {
     font-size: 25px;
 }
 
-/* Main */
+/* Main Section */
 main{
-    max-width: 900px;
     margin: 0 auto;
 }
 
-/* Footer */
+/* Banner */
+
+.banner-container{
+    margin: 3% 0;
+}
+
+.carousel{
+    width: 60%;
+    height: auto;
+}
+
+.carousel img{
+    width: 100%;
+    box-shadow: 2px 2px 2px grey;
+}
+
+
+.carousel, .news{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.news{
+    max-width: 39%;
+    height: auto;
+}
+
+.new{
+    width: 100%;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.new img{
+    width: 40%;
+}
+
+.new-content{
+    display: inline-block;
+    font-weight: normal;
+}
+
+.new-content{
+    width: 57%;
+    vertical-align: top;
+}
+
+.new-content h5{
+    margin-top: 3%;
+    vertical-align: bottom;
+}
+
+/* Benefits */
+.benefits{
+    margin: 3% 5%;
+    padding: 1%;
+    text-align: center;
+}
+
+.intro{
+    display: inline-block;
+    width: 20%;
+    margin: 0 2%;
+}
+
+.intro-description {
+    color: grey;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Route */
+.route{
+    width: 100%;
+    background-color:rgb(183, 223, 255);
+    text-align: center;
+}
+
+.content--hero{    
+    font-size: 20px;
+    padding: 5% 0;
+}
+
+.card--sm{
+    width: 30%;
+    margin: 2% 1%;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+}
+
+.card__image{
+    width: 100%;
+}
+
+.card__container{
+    padding: 3%;
+}
+
+.card__header{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card__description{
+    font-size: 14px;
+    color: rgb(138, 138, 138);
+}
+
+.card__time{
+    font-weight: bold;
+    font-size: 14px;
+    margin: 2% 0;
+}
+
+/* Product */
+.btn-left, .btn-right, .project span{
+    font-size: 20px;
+    padding: 1%;
+    display: inline-block;
+}
+
+.btn-left{
+    float: left;
+}
+
+.btn-right{
+    float: right;
+}
+
+.project {
+    text-align: center;
+    padding: 3%;
+}
+
+.card--md{
+    width: 30%;
+    margin: 3% 1%;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 2px 2px 2px rgb(207, 207, 207);
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+}
+
+
+
+/* Footer Section*/
 footer{
     background-color: rgb(30, 54, 75);
     text-align: center;
